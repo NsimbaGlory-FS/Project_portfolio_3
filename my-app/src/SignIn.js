@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 
 const AUTH_URL =
-  "https://accounts.spotify.com/authorize? client_id=56457ed506eb4fd7b916be6e7573f55e";
+  "https://accounts.spotify.com/authorize?client_id=56457ed506eb4fd7b916be6e7573f55e&http://localhost:3000";
 
 export default function SignIn() {
   return (
